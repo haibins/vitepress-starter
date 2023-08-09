@@ -1,0 +1,22 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.6",
+    "vitepress-plugin-sandpack": "^0.3.0",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@xchart/vue": "^0.1.13"
+  }
+}
